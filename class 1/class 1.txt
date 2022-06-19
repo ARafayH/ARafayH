@@ -1,0 +1,85 @@
+var global scop ha 
+let block scop ha
+loop ma const used nhi kar sak tay
+const ko upbate nhi kar sak tay
+const block scop ha 
+
+// object //
+
+let obj = {};
+
+let obj2 = new object();
+
+let obj = {};
+
+obj.name = "abdulrafay"
+
+console.log(obj)
+
+let userinput = prompt ("Enter property name")
+
+let obj = {
+name: "abdulrafay"
+email: "arafay990068@gmail.com"
+phone: 03450142363
+class: "test"
+};
+console.log(obj[userinput])
+
+let mobiles = {
+     iphone:  {
+      iphone14: {
+         model_name: "Iphone 14",
+         price: $700,
+         color: "black",
+         camera: "11",          
+},
+           iphone13: {
+         model_name: "Iphone 13",
+         price: $500,
+         color: "pink",
+         camera: "10",          
+},
+
+      
+}
+           Realme:  {
+      Realme 5: {
+         model_name: "Realme 5",
+         price: $200,
+         color: "blue",
+         camera: "7",
+         ram: "4gb"
+         rom: "128gb"    
+},
+             Realme:  {
+      Realme 6: {
+         model_name: "Realme 6",
+         price: $400,
+         color: "blue",
+         camera: "8",
+         ram: "8gb"
+         rom: "128gb"    
+},     
+}
+
+let brand = prompt("Enter brand name")
+let mobile = prompt("Enter mobile name")
+
+if (mobiles[brand] !== undefined){
+if (mobiles[brand][mobile] !== undefined){
+console.log (mobiles[brand][mobile]);
+}
+}
+
+
+
+
+
+
+
+// object constor //
+
+function myObj(a){
+ 
+}
